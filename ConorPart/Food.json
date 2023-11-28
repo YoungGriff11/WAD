@@ -1,0 +1,85 @@
+
+{
+    "chinese":{
+      
+      "type": "chinese",
+      "menu": {
+        "main dishes": [
+          ["Curry", 10],
+          ["Satay", 10]
+        ],
+        "meat options": [
+          ["Beef","No added cost"], 
+          ["Chicken","No added cost"], 
+          ["Vegetarian","No added cost"]
+        ],
+        "side dishes": [
+          ["Rice", 2],
+          ["Chips", 2.5],
+          ["Noodles", 3]
+        ]
+      },
+      "detail": {
+        "distance": "3km",
+        "location": "raheny",
+        "delivery": 3
+      }
+    },
+    "chipper": {
+      
+      "type": "chipper",
+      "menu": [
+        ["chips", 2],
+        ["battered sausage", 2.5],
+        ["burger", 4],
+        ["chicken nuggets", 4],
+        ["drink", 1]
+      ],
+      "details": {
+        "distance": "5km",
+        "location": "ballymun",
+        "delivery": 2.5
+      }
+    },
+    "pizza": {
+      
+      "type": "pizza",
+      "price": 10,
+      "menu": {
+        "type" : ["pepperoni","margarita","ham","hawaiian","veggie"]
+          },
+      "details": {
+        "distance": "4km",
+        "location": "coolock",
+        "delivery": 3
+      }
+    },
+    "mexican": {
+      
+      "type": "mexican",
+      "menu": {
+        "main dishes": [["chimichanga", 10], ["tacos", 9], ["burritos", 10], ["nachos", 8], ["fajitas", 11]],
+        "meat options": ["chicken", "beef", "pulled pork", "vegetarian"]
+      },
+      "details": {
+        "distance": "6km",
+        "location": "clontarf",
+        "delivery": 4
+      }
+    },
+    "japanese": {
+      
+      "type": "japanese",
+      "menu": {
+        "sushi": {
+          "types": [["nigiri", 8], ["uramaki", 8], ["maki", 8]],
+          "meat options": ["salmon", "tuna"]
+        },
+        "gyoza": {
+          "meat": [["beef",8], ["chicken",8], ["pork",8], ["vegetarian",6]],
+          "type": ["steamed", "fried"]
+        }
+      }
+    }
+  }
+  
